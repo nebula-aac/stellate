@@ -1,0 +1,15 @@
+{
+  "name": "stellate",
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "bun-types": "^0.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
